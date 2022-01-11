@@ -3,11 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Todo App JavaScript</title>
+    <link rel="stylesheet" href="/Todo-App/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
@@ -18,17 +17,16 @@
             <button><i class="fas fa-plus"></i></button>
         </div>
         <ul class="todoList">
-            <li>By a new gamer notebook <span><i class="fas fa-trash"></i></span> </li>
-            <li> Complete a previus task <span><i class="fas fa-trash"></i></span> </li>
-            <li>Create a video for Youtube <span><i class="fas fa-trash"></i></span> </li>
-            <li>Create a new portfolio site <span><i class="fas fa-trash"></i></span> </li>
+            <!--Os dados vêm do armazenamento local-->
         </ul>
         <div class="footer">
-            <span>You have 4 peding tasks</span>
-            <button>Clear All</button>
+            <span>Você tem <span class="pendingTasks"></span> atividades pendentes</span>
+            <button>Limpar tudo</button>
         </div>
     </div>
+
     <script src="/Todo-App/JS/script.js"></script>
+
 </body>
 
 </html>
