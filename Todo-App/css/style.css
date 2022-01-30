@@ -16,6 +16,8 @@ body{
   /* overflow: hidden; */
   padding: 10px;
   background-image: url('../img/imgFundo.png');
+  background-repeat: no-repeat;
+  background-color: black;
 }
 .wrapper{
   background: #fff;
